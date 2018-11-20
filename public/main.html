@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <style>
+            * {
+                margin: 0;
+            }
+
+            button {
+                margin: 10px;
+            }
+
+            form {
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <h1>Lançamento oblíquo</h1>
+            <legend>Determine a força resultante:</legend>
+            <input id="force" type="number" placeholder="20">
+            <legend>Ângulo</legend>
+            <input id="angle" type="number" placeholder="60">
+            <legend>Massa</legend>
+            <input id="mass" type="number" placeholder="10">
+        </form>
+        <section>
+            <button id="launch">Launch</button>
+            <button id="reset">Reset</button>
+            <button id="pause">Pause</button>
+        </section>
+
+        <section id="">
+            <h2>Detalhes</h2>
+            <p id="details"></p>
+            <p id="timing"></p>
+        </section>
+    </body>
+    <script src="../node_modules/matter-js/build/matter.min.js"></script>
+    <script src="../src/index.js"></script>
+</html>
