@@ -51,7 +51,7 @@ var roof = Bodies.rectangle(910, 10, 2000, 60, { isStatic: true, friction: 0, re
     fillStyle: 'blue' //Mudando a cor do chão
 }});
 
-var ball = Bodies.circle(910 , 655, 10, {frictionStatic: false, render: {
+var ball = Bodies.circle(910 , 655, 25, {frictionStatic: false, render: {
     fillStyle: 'red' //Mudando a cor da bola
 }});
 
